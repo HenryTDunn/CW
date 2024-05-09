@@ -120,7 +120,7 @@ configurePin(a, redPin, 'DigitalOutput');
 %
 
 t_time = 0
-
+i = 0
 
 while true
     % Read temperature from Arduino
