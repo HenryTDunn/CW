@@ -254,3 +254,25 @@ while true
         disp(['Predicted temperature in 5 minutes: ', num2str(tempPredict), ' °C']);
     end
 end
+%% Task 4  - REFLECTIVE STATEMENT [5 MARKS]
+
+%The main challenges I face in the course work was learing the way around the arduino and breadboard and 
+%all the new functions that come with them. Also having very limiting coding experince only starting this year
+%my coding foundation is rather poor so the more complex questions proved rather difficult. 
+%Coding the live graph caused me quite a few problems and went through a
+%few ideas on how to do it as i coulndt seem to get the 'drawnow' function to work. I had to get round this
+%by using the online reasources and the materials given to us on moodle. One limitation i came accross is when  i used
+%the equation T = (V-V0_C)/TC it would come out as negative numbers as the
+%zero voltage degrees being 500mv(0.5V) was bigger than the measured
+%voltage. This made it hard to see if my code was working or not as i was
+%not able to get accurate results. I dont know if this was a problem with
+%the arduino kit that was given to me or just a problem with my code but this was a big limitation in this coursework as it was hard to see if my code was working or not.
+%A strength in my code is that i kept it well commented so it was easy to
+%read my code and follow the logic of it. This also made it easier to
+%debug.
+%For creating the flowcharts i used the website lucidcharts which made it
+%very easy to make and very clear to read. 
+%For future course work i would want to make more efficient code and this
+%would happen by  increasing my experience and knowledge in matlab.  
+% 
+
